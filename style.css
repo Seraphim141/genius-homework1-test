@@ -1,0 +1,176 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v47-cyrillic_latin-regular.woff2') format('woff2'); 
+  }
+
+  @font-face {
+    font-display: swap; 
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/roboto-v47-cyrillic_latin-italic.woff2') format('woff2'); 
+  }
+
+  @font-face {
+    font-display: swap; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/roboto-v47-cyrillic_latin-600.woff2') format('woff2'); 
+  }
+  @font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 600;
+    src: url('../fonts/roboto-v47-cyrillic_latin-600italic.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-display: swap; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v47-cyrillic_latin-700.woff2') format('woff2'); 
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../fonts/roboto-v47-cyrillic_latin-700italic.woff2') format('woff2'); 
+  }
+
+:root{
+    --primary-color: #011C44;
+    --secondary-color: #2B7FFF;
+    --tex-color-S1: #4A4A4A;
+    --tex-color-S3: #000000;
+    --text-color-white: #FFFFFF;
+    --tex-color-2022: #747272;
+}
+
+body{
+    color: var(--primary-color);
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* __________________________________________-HEADER-______________________________________________ */
+.header_nav-libtn{
+    list-style: none;
+}
+.header_nav-libtn:hover {
+    color: var(--secondary-color);
+    font-weight: 700;
+    cursor: pointer;
+}
+/* __________________________________________-SECTION 1-______________________________________________ */
+.S1_p-tex1{
+    
+}
+.Logo-text{
+    font-family: 'Play';
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 0.8;
+    text-transform: capitalize; /* Кожне слово починається з великої літери */
+    color:var(--secondary-color);
+}
+.S1_button{
+    color: var(--text-color-white);
+    background-color: var(--secondary-color);
+    font-weight: 600;
+}
+.S1_p-tex2{
+    color: var(--tex-color-S1);
+    font-size: 12px;
+    line-height: 1.5;
+}
+/* __________________________________________-SECTION 2-______________________________________________ */
+.S2_h2-tex1{
+    font-family: 'Play';
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1;
+}
+.S2_h2-texspan1{
+    color: var(--secondary-color);
+    text-transform: capitalize; /* Кожне слово починається з великої літери */
+}
+.S2_p{
+    line-height: 1.7;
+}
+.S2_p-span{
+    font-weight: bold;
+    text-transform: capitalize; /* Кожне слово починається з великої літери */
+}
+/* __________________________________________-SECTION 3-______________________________________________ */
+.S3_h2-tex1{
+    font-family: 'Play';
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+}
+.S3_h2-texspan1{
+    color: var(--secondary-color);
+}
+.S3_art-tex{
+    width: 252px;
+    color: var(--tex-color-S3);
+    line-height: 1.3;
+}
+/* __________________________________________-SECTION 4-______________________________________________ */
+.S4_h2-tex1{
+    font-family: 'Play';
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+}
+.S4_h2-texspan1{
+    color: var(--secondary-color); 
+}
+.S4_art-tex{
+    color: var(--text-color-white);
+    font-size: 22px;
+    line-height: 1;
+}
+/* __________________________________________-SECTION 5-______________________________________________ */
+.S5_h2-tex1{
+    font-family: 'Play';
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+}
+.S5_h2-texspan1{
+    color: var(--secondary-color);
+}
+/* __________________________________________-FOUTER-______________________________________________ */
+.footer_nav-libtn{
+    color: var(--text-color-white);
+    list-style:none;
+    font-size: 16px;
+}
+.footer_address-libtn{
+    list-style:none; 
+}
+.footer_address-abtn{
+    color: var(--text-color-white);
+    font-size: 16px;  
+}
+.footer_address-tex1{
+    color: var(--text-color-white);  
+    font-size: 16px;
+}
+.footer_address-tex2{
+    color: var(--tex-color-2022);
+    font-size: 13px;
+}
